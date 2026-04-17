@@ -1,7 +1,7 @@
 # Cybersecurity Home Lab 
 A hands-on home lab documenting practical cybersecurity exercises
 completed as part of the TechCrush Cybersecurity Bootcamp (2025). **Target Role:** Entry-Level SOC
-Analyst **Platform:** Windows 11 (host) | Kali Linux + Ubuntu (VMs via VirtualBox) **Status:** In
+Analyst **Platform:** Windows 11 (host) | Kali Linux **Status:** In
 Progress — updated weekly --- ## Labs Completed | # | Lab | Topic | Status | |---|-----|-------|--------| | 1 |
 [CIA Triad](./lab-01-cia-triad/) | Week 1 — Cybersecurity Basics | Done | | 2 | [Encryption &
 Decryption](./lab-02-encryption/) | Week 2 D1 | Done | | 3 | [Hashing & File Integrity](./lab-03-hashing/) |
