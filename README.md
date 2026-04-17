@@ -3,7 +3,7 @@
 A hands-on home lab documenting practical cybersecurity exercises completed as part of the TechCrush Cybersecurity Bootcamp (2026).
 
 **Target Role:** Entry-Level SOC Analyst  
-**Platform:** Windows 11 (Host) | Kali Linux  
+**Platform:** Windows 11 (Host) | Kali Linux (VM via VirtualBox)  
 **Status:** In Progress — Updated Weekly  
 
 ---
