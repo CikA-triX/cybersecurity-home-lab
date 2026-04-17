@@ -25,8 +25,7 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 
 - Wireshark  
 - Nmap  
-- Kali Linux  
-- Ubuntu  
+- Kali Linux   
 - Windows Security Centre  
 - PowerShell  
 - UFW  
