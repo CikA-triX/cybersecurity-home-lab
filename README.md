@@ -4,7 +4,7 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 
 **Target Role:** Entry Level SOC Analyst  
 **Platform:** Windows 11 (Host) | Kali Linux (VM via VirtualBox)  
-**Status:** In Progress - Updated Weekly  
+**Status:** In Progress - Updated Per Lab  
 
 ---
 
