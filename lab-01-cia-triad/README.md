@@ -1,4 +1,3 @@
-```markdown
 # 🧪 Lab 01 — CIA Triad 
 
 **Program:** Cybersecurity (3-Month Program)  
@@ -173,4 +172,3 @@ Tolu Akinyele
 Cybersecurity Student | Learning in Public  
 GitHub: https://github.com/CikA-triX  
 LinkedIn: https://linkedin.com/in/toluakinyele
-```
