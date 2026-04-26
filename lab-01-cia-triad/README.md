@@ -1,4 +1,4 @@
-# 🧪 Lab 01 - CIA Triad 
+# Lab 01 - CIA Triad 
 
 **Program:** TechCrush Cybersecurity Bootcamp (3-Months Program)  
 **Difficulty:** Beginner  
@@ -53,7 +53,7 @@ These principles are used in banking systems, enterprise infrastructure, and clo
 
 ---
 
-# 🔐 Part A - Confidentiality (File Encryption)
+# Part A - Confidentiality (File Encryption)
 
 ## Objective
 Demonstrate how encryption prevents unauthorized access to data.
@@ -84,7 +84,7 @@ Used to protect sensitive data such as financial records and customer informatio
 
 ---
 
-# 🧾 Part B - Integrity (Hash Verification)
+# Part B - Integrity (Hash Verification)
 
 ## Objective
 Detect file modification using SHA-256 hashing.
@@ -114,7 +114,7 @@ Used in software verification and download validation - this is how you confirm 
 
 ---
 
-# ⚙️ Part C - Availability (Service Control)
+# Part C - Availability (Service Control)
 
 ## Objective
 Observe system behaviour when a service is stopped.
@@ -144,7 +144,7 @@ Mirrors denial of service scenarios where systems become unavailable due to disr
 
 ---
 
-# 🧠 LAB SUMMARY
+# LAB SUMMARY
 
 ## Environment   
 - Windows 11 (16GB RAM)  
@@ -163,13 +163,13 @@ Even a single character change completely alters a hash, showing how sensitive i
 
 ---
 
-## 🚀 FINAL NOTE
+## FINAL NOTE
 
 This lab demonstrates that the CIA Triad is not theoretical - it is directly observable using basic system tools and controlled actions.
 
 ---
 
-## 👤 AUTHOR
+## AUTHOR
 
 Tolu Akinyele  
 Cybersecurity Student | Learning in Public  
