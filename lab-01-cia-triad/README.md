@@ -156,7 +156,7 @@ Mirrors denial-of-service scenarios where systems become unavailable due to disr
 - Availability via service control  
 
 ## Difficulties / Errors
-When I double-clicked the encrypted archive, Windows threw an extraction error - its built-in tool doesn't support AES-256. Fixed it by opening through 7-Zip directly (right-click → 7-Zip → Open archive). Lesson: always open encrypted archives with the tool that created them.
+When I double-clicked the encrypted archive, Windows threw an extraction error - its built-in tool doesn't support AES-256. Fixed it by opening through 7-Zip directly (right-click --> 7-Zip --> Open archive). Lesson: always open encrypted archives with the tool that created them.
 
 ## Key Insight
 Even a single-character change completely alters a cryptographic hash, highlighting how sensitive integrity systems are.
