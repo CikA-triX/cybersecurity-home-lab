@@ -66,7 +66,7 @@ Demonstrate how encryption prevents unauthorized access to data.
 2. Compressed using 7-Zip
 3. Applied AES-256 encryption with password
 4. Double-clicked the archive - Windows threw an extraction error
-5. Opened correctly via right-click → 7-Zip → Open archive
+5. Opened correctly via right-click --> 7-Zip --> Open archive
 6. Attempted access without password
 7. Reopened using correct password 
 
@@ -75,7 +75,7 @@ Demonstrate how encryption prevents unauthorized access to data.
 - Access restored instantly with correct password  
 
 ## Evidence
-- screenshots/Lab01_PartA_access_denied.png
+- screenshots/Lab01_PartA_windows_error.png
 - screenshots/Lab01_PartA_access_denied.png
 - screenshots/Lab01_PartA_access_granted.png  
 
@@ -110,7 +110,7 @@ Detect file modification using SHA-256 hashing.
 - screenshots/Lab01_PartB_comparison.png  
 
 ## Real-World Meaning
-Used in software verification and download validation — this is how you confirm a file hasn't been tampered with or replaced with malware.
+Used in software verification and download validation - this is how you confirm a file hasn't been tampered with or replaced with malware.
 
 ---
 
@@ -123,7 +123,7 @@ Observe system behaviour when a service is stopped.
 - Windows Services (`services.msc`)  
 - Windows Update service  
 
-## Steps
+## Steps  
 1. Opened Services manager  
 2. Located Windows Update service  
 3. Stopped service  
@@ -146,7 +146,7 @@ Mirrors denial-of-service scenarios where systems become unavailable due to disr
 
 # 🧠 LAB SUMMARY
 
-## Environment
+## Environment   
 - Windows 11 (16GB RAM)  
 - No VM required  
 
@@ -156,7 +156,7 @@ Mirrors denial-of-service scenarios where systems become unavailable due to disr
 - Availability via service control  
 
 ## Difficulties / Errors
-When I double-clicked the encrypted archive, Windows threw an extraction error — its built-in tool doesn't support AES-256. Fixed it by opening through 7-Zip directly (right-click → 7-Zip → Open archive). Lesson: always open encrypted archives with the tool that created them.
+When I double-clicked the encrypted archive, Windows threw an extraction error - its built-in tool doesn't support AES-256. Fixed it by opening through 7-Zip directly (right-click → 7-Zip → Open archive). Lesson: always open encrypted archives with the tool that created them.
 
 ## Key Insight
 Even a single-character change completely alters a cryptographic hash, highlighting how sensitive integrity systems are.
