@@ -62,18 +62,21 @@ Demonstrate how encryption prevents unauthorized access to data.
 - 7-Zip  
 
 ## Steps
-1. Created `secret.txt` with sample content  
-2. Compressed using 7-Zip  
-3. Applied AES-256 encryption with password  
-4. Attempted access without password  
-5. Reopened using correct password  
+1. Created secret.txt with sample content
+2. Compressed using 7-Zip
+3. Applied AES-256 encryption with password
+4. Double-clicked the archive - Windows threw an extraction error
+5. Opened correctly via right-click → 7-Zip → Open archive
+6. Attempted access without password
+7. Reopened using correct password 
 
 ## Observations
 - File was completely inaccessible without password  
 - Access restored instantly with correct password  
 
 ## Evidence
-- screenshots/Lab01_PartA_access_denied.png  
+- screenshots/Lab01_PartA_access_denied.png
+- screenshots/Lab01_PartA_access_denied.png
 - screenshots/Lab01_PartA_access_granted.png  
 
 ## Real-World Meaning
