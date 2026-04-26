@@ -75,9 +75,9 @@ Demonstrate how encryption prevents unauthorized access to data.
 - Access restored instantly with correct password  
 
 ## Evidence
-- screenshots/Lab01_PartA_windows_error.png
-- screenshots/Lab01_PartA_access_denied.png
-- screenshots/Lab01_PartA_access_granted.png  
+- [Lab01_PartA_windows_error.png](screenshots/Lab01_PartA_windows_error.png)
+- [Lab01_PartA_access_denied.png](screenshots/Lab01_PartA_access_denied.png)
+- [Lab01_PartA_access_granted.png](screenshots/Lab01_PartA_access_granted.png)  
 
 ## Real-World Meaning
 Used to protect sensitive data such as financial records and customer information. If an attacker steals an encrypted file from a server, they still can't read it without the key.
@@ -105,9 +105,9 @@ Detect file modification using SHA-256 hashing.
 - Demonstrated avalanche effect  
 
 ## Evidence
-- screenshots/Lab01_PartB_hash_before.png  
-- screenshots/Lab01_PartB_hash_after.png  
-- screenshots/Lab01_PartB_comparison.png  
+- [Lab01_PartB_hash_before.png](screenshots/Lab01_PartB_hash_before.png)  
+- [Lab01_PartB_hash_after.png](screenshots/Lab01_PartB_hash_after.png)  
+- [Lab01_PartB_comparison.png](screenshots/Lab01_PartB_comparison.png)  
 
 ## Real-World Meaning
 Used in software verification and download validation - this is how you confirm a file hasn't been tampered with or replaced with malware.
@@ -136,8 +136,8 @@ Observe system behaviour when a service is stopped.
 - Functionality restored after restart  
 
 ## Evidence
-- screenshots/Lab01_PartC_service_stopped.png  
-- screenshots/Lab01_PartC_service_restored.png  
+- [Lab01_PartC_service_stopped.png](screenshots/Lab01_PartC_service_stopped.png)  
+- [Lab01_PartC_service_restored.png](screenshots/Lab01_PartC_service_restored.png)  
 
 ## Real-World Meaning
 Mirrors denial-of-service scenarios where systems become unavailable due to disruption.
