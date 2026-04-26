@@ -12,7 +12,7 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 
 | # | Lab | Status |
 |---|-----|--------|
-| 1 | [CIA Triad](./lab-01-cia-triad/) | In progress |
+| 1 | [CIA Triad](./lab-01-cia-triad/) | Done |
 | 2 | [Encryption & Decryption](./lab-02-encryption/) | In progress |
 | 3 | [Hashing & File Integrity](./lab-03-hashing/) | In progress |
 | 4 | [Network Discovery & Traffic Analysis](./lab-04-network-analysis/) | In progress |
