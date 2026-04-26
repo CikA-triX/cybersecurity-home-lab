@@ -1,6 +1,6 @@
 # 🧪 Lab 01 - CIA Triad 
 
-**Program:** Cybersecurity (3-Months Program)  
+**Program:** TechCrush Cybersecurity Bootcamp (3-Months Program)  
 **Difficulty:** Beginner  
 **Environment:** Windows 11 (Home Lab)  
 **Date Completed:** 24 April 2026  
