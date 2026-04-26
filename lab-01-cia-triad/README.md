@@ -36,7 +36,7 @@ Each part focused on observing system behaviour before and after changes.
 ## 4 · WHAT I SAW (OVERALL OUTCOME)
 
 - Encrypted files could not be accessed without the correct password  
-- A single-character modification completely changed the file hash  
+- A single character modification completely changed the file hash  
 - Stopping a service caused immediate loss of functionality, restored after restart  
 
 These results confirmed that the CIA Triad principles are observable in real systems.
@@ -96,7 +96,7 @@ Detect file modification using SHA-256 hashing.
 ## Steps
 1. Generated hash of original file  
 2. Saved hash output  
-3. Modified file (added one character)  
+3. Modified file (added a fullstop)  
 4. Generated new hash  
 5. Compared both hashes  
 
@@ -129,7 +129,7 @@ Observe system behaviour when a service is stopped.
 3. Stopped service  
 4. Attempted update check  
 5. Restarted service  
-6. Retested functionality  
+6. Retested update check 
 
 ## Observations
 - Service became unavailable when stopped  
@@ -140,7 +140,7 @@ Observe system behaviour when a service is stopped.
 - [Lab01_PartC_service_restored.png](screenshots/Lab01_PartC_service_restored.png)  
 
 ## Real-World Meaning
-Mirrors denial-of-service scenarios where systems become unavailable due to disruption.
+Mirrors denial of service scenarios where systems become unavailable due to disruption.
 
 ---
 
@@ -159,7 +159,7 @@ Mirrors denial-of-service scenarios where systems become unavailable due to disr
 When I double-clicked the encrypted archive, Windows threw an extraction error - its built-in tool doesn't support AES-256. Fixed it by opening through 7-Zip directly (right-click --> 7-Zip --> Open archive). Lesson: always open encrypted archives with the tool that created them.
 
 ## Key Insight
-Even a single-character change completely alters a cryptographic hash, highlighting how sensitive integrity systems are.
+Even a single character change completely alters a hash, showing how sensitive integrity systems are.
 
 ---
 
