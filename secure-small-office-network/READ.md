@@ -1,9 +1,9 @@
 # Secure Small Office Network
-**Capstone Project 2 — TechCrush Cybersecurity Bootcamp, Cohort 6**
+**Capstone Project 2 - TechCrush Cybersecurity Bootcamp, Cohort 6**
 
-**Programme:** TechCrush Cybersecurity Bootcamp (3-Months Programme)
+**Programme:** TechCrush Cybersecurity Bootcamp (15 Weeks Programme)
 **Difficulty:** Intermediate
-**Environment:** Cisco Packet Tracer (Home Lab)
+**Environment:** Cisco Packet Tracer
 **Role:** Network Design Lead | Group 8
 **Date Completed:** June 2026
 
@@ -13,7 +13,7 @@
 
 To design, build, and test a secure small office network using a single-firewall DMZ architecture with zone-based access control, threat simulation, and verified security outcomes.
 
-Small offices are easy targets. Everything on one flat network — web servers, staff PCs, printers, guest WiFi — no separation, no control. One compromised device and an attacker moves freely across everything. This project addresses exactly that problem.
+Small offices are easy targets. Everything on one flat network: web servers, staff PCs, printers, guest WiFi; no separation, no control. One compromised device and an attacker moves freely across everything. This project addresses exactly that problem.
 
 This was a group capstone project. My individual contribution covers the network design, zone architecture, firewall ACL configuration, threat simulation, packet capture analysis, and FTP hardening. Password configuration for some devices was handled by a teammate.
 
@@ -22,12 +22,12 @@ This was a group capstone project. My individual contribution covers the network
 ## 2 · MY INDIVIDUAL CONTRIBUTION
 
 - Designed the full network topology and zone architecture
-- Configured the Cisco ASA 5506-X firewall — interfaces, security levels, NAT
+- Configured the Cisco ASA 5506-X firewall: interfaces, security levels, NAT
 - Wrote all five ACL rules from scratch and applied them to the correct interfaces
 - Conducted port scanning (before and after hardening)
-- Ran the threat simulation — attacker vs. staff network
+- Ran the threat simulation - attacker vs. staff network
 - Captured and analysed packet traffic in Simulation Mode
-- Hardened the DMZ web server — disabled FTP, removed default credentials
+- Hardened the DMZ web server - disabled FTP, removed default credentials
 - Verified all ACL rules using live hit counters from the ASA CLI
 - Produced the full project report and presentation slides
 
@@ -36,15 +36,15 @@ This was a group capstone project. My individual contribution covers the network
 ## 3 · TOOLS USED
 
 - Cisco Packet Tracer (full network simulation)
-- Cisco ASA 5506-X — simulated (firewall configuration via CLI)
-- Built-in Telnet (port scanning — Nmap equivalent)
-- Packet Tracer Simulation Mode (packet capture — Wireshark equivalent)
+- Cisco ASA 5506-X - simulated (firewall configuration via CLI)
+- Built-in Telnet (port scanning - Nmap equivalent)
+- Packet Tracer Simulation Mode (packet capture - Wireshark equivalent)
 
 ---
 
 ## 4 · NETWORK DESIGN
 
-**Architecture:** Single Firewall DMZ — Star Topology
+**Architecture:** Single Firewall DMZ - Star Topology
 **Devices:** 11 total
 **Zones:** 4
 
@@ -59,10 +59,10 @@ This was a group capstone project. My individual contribution covers the network
 
 ### Zone Summary
 
-- **Internet/Edge Zone (Level 0)** — Untrusted. Edge router and simulated attacker.
-- **DMZ Zone (Level 50)** — Semi-trusted. Hosts www.smalloffice.com and DNS. If compromised, the attacker is contained here and cannot reach internal systems.
-- **Internal Zone (Level 100)** — Most trusted. Staff PCs and printer on VLAN 10.
-- **Guest WiFi Zone (Level 0)** — Untrusted. Visitors get internet access only. Zero access to staff or DMZ.
+- **Internet/Edge Zone (Level 0)** - Untrusted. Edge router and simulated attacker.
+- **DMZ Zone (Level 50)** - Semi-trusted. Hosts www.smalloffice.com and DNS. If compromised, the attacker is contained here and cannot reach internal systems.
+- **Internal Zone (Level 100)** - Most trusted. Staff PCs and printer on VLAN 10.
+- **Guest WiFi Zone (Level 0)** - Untrusted. Visitors get internet access only. Zero access to staff or DMZ.
 
 ### Device List
 
@@ -80,13 +80,13 @@ This was a group capstone project. My individual contribution covers the network
 
 ## 5 · SECURITY CONTROLS
 
-### Firewall ACLs — 5 Rules, Deny All by Default
+### Firewall ACLs - 5 Rules, Deny All by Default
 
 | ACL Name | Direction | What It Does |
 |---|---|---|
 | OUTSIDE_TO_DMZ | Inbound on OUTSIDE | Permits TCP port 80, 443, UDP port 53 to web server only |
 | DMZ_IN | Inbound on DMZ | Blocks DMZ from initiating connections to internal network |
-| DMZ_RETURN_TO_INSIDE | Inbound on DMZ | Permits reply traffic from DMZ back to internal — added during live testing |
+| DMZ_RETURN_TO_INSIDE | Inbound on DMZ | Permits reply traffic from DMZ back to internal. Added during live testing |
 | INSIDE_OUT | Inbound on INSIDE | Permits staff PC traffic. Printer locked to port 9100 only. Cannot initiate outbound. |
 | GUEST_IN | Inbound on GUESTWIFI | Blocks guest network from reaching internal or DMZ. Internet only. |
 
@@ -99,16 +99,16 @@ This was a group capstone project. My individual contribution covers the network
 | 80 (HTTP) | Open | Open |
 | 443 (HTTPS) | Open | Open |
 | 53 (DNS) | Open | Open |
-| 21 (FTP) | Open — default credentials (cisco/cisco) | Closed — Connection Timed Out |
+| 21 (FTP) | Open - default credentials (cisco/cisco) | Closed - Connection Timed Out |
 
 ### Additional Controls
 
-- **Static IP addressing** — predictable addresses enable precise ACL rules
-- **VLAN 10** — all internal devices segmented from guest traffic
-- **WPA2-PSK with AES** — guest WiFi encryption
-- **Encrypted passwords** — all devices configured with strong credentials
-- **NAT** — static NAT for DMZ web server
-- **Unidirectional printer ACL** — printer can receive jobs on port 9100 but cannot initiate any outbound connection, eliminating lateral movement risk even if compromised
+- **Static IP addressing** - predictable addresses enable precise ACL rules
+- **VLAN 10** - all internal devices segmented from guest traffic
+- **WPA2-PSK with AES** - guest WiFi encryption
+- **Encrypted passwords** - all devices configured with strong credentials
+- **NAT** - static NAT for DMZ web server
+- **Unidirectional printer ACL** - printer can receive jobs on port 9100 but cannot initiate any outbound connection, eliminating lateral movement risk even if compromised
 
 ---
 
@@ -116,16 +116,16 @@ This was a group capstone project. My individual contribution covers the network
 
 **Scenario:** Attacker_PC (203.0.113.3) attempts to reach Staff_PC1 (192.168.20.2)
 
-**Result:** Request Timeout — the attacker never reached the internal network.
+**Result:** Request Timeout - the attacker never reached the internal network.
 
 **Why it was blocked:**
 1. Firewall checked the packet against the OUTSIDE_TO_DMZ ACL
 2. Destination 192.168.20.x matched no permit rule
-3. Implicit deny — packet dropped silently
+3. Implicit deny - packet dropped silently
 
 ---
 
-## 7 · ACL VERIFICATION — LIVE HIT COUNTERS
+## 7 · ACL VERIFICATION - LIVE HIT COUNTERS
 
 These numbers were captured live from the ASA CLI using `show access-list` during testing. They are not fabricated.
 
@@ -145,7 +145,7 @@ Every decision in this project was intentional.
 Fixed addresses allow precise firewall rules. Dynamic IPs would break ACL targeting.
 
 **Why star topology?**
-The firewall sits at the centre — no traffic can bypass security controls.
+The firewall sits at the centre, no traffic can bypass security controls.
 
 **Why single firewall DMZ?**
 Cost-effective and appropriately secure for a small office scope. Dual-firewall DMZ is the identified next step for a more robust architecture.
@@ -178,11 +178,11 @@ All screenshots are named and available in the `/screenshots` folder:
 
 | # | Filename | Description |
 |---|---|---|
-| 1 | `1_asa_cli_baseline_configuration` | ASA CLI — baseline setup |
+| 1 | `1_asa_cli_baseline_configuration` | ASA CLI - baseline setup |
 | 2 | `2_asa_cli_baseline_show_acl` | ACL state before hardening |
-| 3 | `3_outside_scan_ports_open` | Port scan — ports open |
+| 3 | `3_outside_scan_ports_open` | Port scan - ports open |
 | 4 | `4_asa_cli_hardening_command` | Hardening commands applied |
-| 5 | `5_outside_scan_ports_hardened` | Port scan — after hardening |
+| 5 | `5_outside_scan_ports_hardened` | Port scan - after hardening |
 | 6 | `6_asa_cli_hardened_show_acl` | ACL state after hardening |
 | 7a | `7a_dns_resolved_staff_pc` | DNS resolution confirmed |
 | 7b | `7b_http_request_at_firewall` | HTTP request at firewall |
@@ -199,19 +199,3 @@ All screenshots are named and available in the `/screenshots` folder:
 | — | `connectivity_test_traffic_works` | Legitimate traffic verified |
 | — | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
 
----
-
-## 11 · ABOUT THIS PROJECT
-
-**Programme:** TechCrush Cybersecurity Bootcamp — Cohort 6
-**Track:** Cybersecurity
-**Project:** Capstone Project 2 — Building a Secure Small Office Network
-**Group:** Group 8
-**My Role:** Network Design Lead
-**Completion Date:** June 2026
-
----
-
-*Built with Cisco Packet Tracer. Documented by Tolu Akinyele (CikA-triX).*
-*GitHub: [github.com/CikA-triX](https://github.com/CikA-triX)*
-*LinkedIn: [linkedin.com/in/toluakinyele](https://linkedin.com/in/toluakinyele)*
