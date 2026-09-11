@@ -14,10 +14,6 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 |---|-----|--------|
 | 1 | [CIA Triad](./lab-01-cia-triad/) | Done |
 | 2 | [Encryption & Decryption](./lab-02-encryption/) | In progress |
-| 3 | [Hashing & File Integrity](./lab-03-hashing/) | In progress |
-| 4 | [Network Discovery & Traffic Analysis](./lab-04-network-analysis/) | In progress |
-| 5 | [Firewall Rules & IDS Monitoring](./lab-05-firewall-ids/) | In progress |
-| 6 | [Windows OS Security Hardening](./lab-06-windows-hardening/) | In progress |
 
 ---
 
