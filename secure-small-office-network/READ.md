@@ -178,24 +178,27 @@ All screenshots are named and available in the `/screenshots` folder:
 
 | # | Filename | Description |
 |---|---|---|
-| 2 | `2_asa_cli_baseline_show_acl` | ACL state before hardening |
-| 3 | `3_outside_scan_ports_open` | Port scan - ports open |
-| 4 | `4_asa_cli_hardening_command` | Hardening commands applied |
-| 5 | `5_outside_scan_ports_hardened` | Port scan - after hardening |
-| 6 | `6_asa_cli_hardened_show_acl` | ACL state after hardening |
-| 7a | `7a_dns_resolved_staff_pc` | DNS resolution confirmed |
-| 7b | `7b_http_request_at_firewall` | HTTP request at firewall |
-| 7c | `7c_http_request_at_dmz_server` | HTTP request at DMZ server |
-| 7d | `7d_http_response_at_firewall` | HTTP response at firewall |
-| 7e | `7e_http_response_staff_pc` | HTTP response at staff PC |
-| 8 | `8_pdu_layer3_layer4_headers` | Layer 3/4 PDU headers |
-| 9 | `9_threat_blocked_at_firewall` | Threat blocked at firewall |
-| 10 | `10_firewall_acl_drop_log` | ACL drop log |
-| 12 | `12_asa_cli_final_hit_counters` | Final live hit counters |
-| — | `show_vlan_brief` | VLAN configuration |
-| 1. | `network_topology_diagram` | Full topology diagram |
-| 2. | `firewall_interface_mapping` | Interface zone mapping |
-| 3. | `DNS-A-Record` | ASA CLI - baseline setup |
-| — | `connectivity_test_traffic_works` | Legitimate traffic verified |
-| — | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
-
+| 1 | `network_topology_diagram` | Full topology diagram |
+| 2 | `firewall_interface_mapping` | Interface zone mapping |
+| 3 | `DNS-A-Record` | DNS Details |
+| 4 | `connectivity_test_traffic_works` | Legitimate traffic verified |
+| 5 | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
+| — | `PDU_information_at_firewall` | Packet denied by OUTSIDE_IN ACL, dropped by default |
+| 6 | `full_firewall_ACL_rule` | Show `access-list` output |
+| 7 | `before_port_hardening` | FTP port 21 included in OUTSIDE_IN ACL |
+| 8 | `port_scan_before_hardening` | Port 21 open |
+| 9 | `asa_cli_hardening_command` | FTP rule removed from OUTSIDE_IN ACL |
+| 10 | `port_scan_after_hardening` | Port 21 blocked |
+| 11 | `hardened_ACL` | Only necessary ports permitted |
+| 12 | `dns_resolution` | `www.smalloffice.com` resolved via DMZ_Webserver |
+| 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
+| 14 | `PDU_details` | Layer 3/4 PDU headers|
+| 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
+| 14 | `asa_firewall_password` | Password `(redacted)` configuration commands |
+| 15 | `edge_router_password` | Password `(redacted)` configuration commands |
+| 16 | `asa_firewall_password` | Password `(redacted)` configuration commands |
+| 17 | `internal_switch_password` | Password `(redacted)` configuration commands |
+| 18 | `guestwifi_router_password` | WPA2- PSK with AES encryption configured |
+| 19 | `show_vlan_brief` | VLAN configuration |
+| 20 | `vlan_database` | VLAN 10 Staff_and_Printer confirmed |
+| 21 | `final_acl_hit_counters` | Final live hit counters |
