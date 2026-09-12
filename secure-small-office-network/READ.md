@@ -178,7 +178,6 @@ All screenshots are named and available in the `/screenshots` folder:
 
 | # | Filename | Description |
 |---|---|---|
-
 | 2 | `2_asa_cli_baseline_show_acl` | ACL state before hardening |
 | 3 | `3_outside_scan_ports_open` | Port scan - ports open |
 | 4 | `4_asa_cli_hardening_command` | Hardening commands applied |
