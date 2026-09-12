@@ -178,7 +178,7 @@ All screenshots are named and available in the `/screenshots` folder:
 
 | # | Filename | Description |
 |---|---|---|
-| 1 | `1_asa_cli_baseline_configuration` | ASA CLI - baseline setup |
+
 | 2 | `2_asa_cli_baseline_show_acl` | ACL state before hardening |
 | 3 | `3_outside_scan_ports_open` | Port scan - ports open |
 | 4 | `4_asa_cli_hardening_command` | Hardening commands applied |
@@ -194,8 +194,9 @@ All screenshots are named and available in the `/screenshots` folder:
 | 10 | `10_firewall_acl_drop_log` | ACL drop log |
 | 12 | `12_asa_cli_final_hit_counters` | Final live hit counters |
 | — | `show_vlan_brief` | VLAN configuration |
-| — | `network_topology_diagram` | Full topology diagram |
-| — | `firewall_interface_mapping` | Interface zone mapping |
+| 1. | `network_topology_diagram` | Full topology diagram |
+| 2. | `firewall_interface_mapping` | Interface zone mapping |
+| 3. | `DNS-A-Record` | ASA CLI - baseline setup |
 | — | `connectivity_test_traffic_works` | Legitimate traffic verified |
 | — | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
 
