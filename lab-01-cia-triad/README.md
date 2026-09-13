@@ -75,7 +75,7 @@ Demonstrate how encryption prevents unauthorized access to data.
 - Access restored instantly with correct password  
 
 ## Evidence
-- [Lab01_PartA_windows_error](screenshots/Lab01_PartA_windows_error.png)
+- [Lab01_PartA_windows_error.png](screenshots/Lab01_PartA_windows_error.png)
 - [Lab01_PartA_access_denied.png](screenshots/Lab01_PartA_access_denied.png)
 - [Lab01_PartA_access_granted.png](screenshots/Lab01_PartA_access_granted.png)  
 
