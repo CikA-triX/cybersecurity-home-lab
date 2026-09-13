@@ -194,11 +194,10 @@ All screenshots are named and available in the `/screenshots` folder:
 | 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
 | 14 | `PDU_details` | Layer 3/4 PDU headers|
 | 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
-| 14 | `asa_firewall_password` | Password `(redacted)` configuration commands |
-| 15 | `edge_router_password` | Password `(redacted)` configuration commands |
-| 16 | `asa_firewall_password` | Password `(redacted)` configuration commands |
-| 17 | `internal_switch_password` | Password `(redacted)` configuration commands |
-| 18 | `guestwifi_router_password` | WPA2- PSK with AES encryption configured |
-| 19 | `show_vlan_brief` | VLAN configuration |
-| 20 | `vlan_database` | VLAN 10 Staff_and_Printer confirmed |
-| 21 | `final_acl_hit_counters` | Final live hit counters |
+| 14 | `asa_firewall_password` | ASA firewall password `(redacted)` configuration commands |
+| 15 | `edge_router_password` | Edge router password `(redacted)` configuration commands |
+| 16 | `internal_switch_password` | Internal switch password `(redacted)` configuration commands |
+| 17 | `guestwifi_router_password` | WPA2- PSK with AES encryption configured |
+| 18 | `show_vlan_brief` | VLAN configuration |
+| 19 | `vlan_database` | VLAN 10 Staff_and_Printer confirmed |
+| 20 | `final_acl_hit_counters` | Final live hit counters |
