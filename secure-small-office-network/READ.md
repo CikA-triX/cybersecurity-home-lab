@@ -185,10 +185,10 @@ All screenshots are named and available in the `/screenshots` folder:
 | 5 | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
 | — | `PDU_information_at_firewall` | Packet denied by OUTSIDE_IN ACL, dropped by default |
 | 6 | `full_firewall_ACL_rule` | Show `access-list` output |
-| 7 | `before_port_hardening` | FTP port 21 included in OUTSIDE_IN ACL |
-| 8 | `port_scan_before_hardening` | Port 21 open |
+| 7 | `opened_ports_before_hardening` | FTP port 21 included in OUTSIDE_IN ACL |
+| 8 | `port_21_scan_before_hardening` | Port 21 open |
 | 9 | `asa_cli_hardening_command` | FTP rule removed from OUTSIDE_IN ACL |
-| 10 | `port_scan_after_hardening` | Port 21 blocked |
+| 10 | `port_21_scan_after_hardening` | Port 21 blocked |
 | 11 | `hardened_ACL` | Only necessary ports permitted |
 | 12 | `dns_resolution` | `www.smalloffice.com` resolved via DMZ_Webserver |
 | 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
