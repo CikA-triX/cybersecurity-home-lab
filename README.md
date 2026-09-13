@@ -13,7 +13,7 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 | # | Lab | Status |
 |---|-----|--------|
 | 1 | [CIA Triad](./lab-01-cia-triad/) | Done |
-| 2 | [Encryption & Decryption](./lab-02-encryption/) | In progress |
+| 2 | [CAPSTONE PROJECT 2: secure-small-office-network](./secure-small-office-network) | Done |
 
 ---
 
