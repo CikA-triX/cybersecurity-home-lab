@@ -178,25 +178,25 @@ All screenshots are named and available in the `/screenshots` folder:
 
 | # | Filename | Description |
 |---|---|---|
-| 1 | [network_topology_diagram](screenshots/network_topology_diagram.png) | Full topology diagram |
+| 1 | [`network_topology_diagram`](screenshots/network_topology_diagram.png) | Full topology diagram |
 | 2 | [`firewall_interface_mapping`](screenshots/firewall_interface_mapping.png) | Interface zone mapping |
-| 3 | `DNS-A-Record` | DNS Details |
-| 4 | `connectivity_test_traffic_works` | Legitimate traffic verified |
-| 5 | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
-| — | `PDU_information_at_firewall` | Packet denied by OUTSIDE_IN ACL, dropped by default |
-| 6 | `full_firewall_ACL_rule` | Show `access-list` output |
-| 7 | `opened_ports_before_hardening` | FTP port 21 included in OUTSIDE_IN ACL |
-| 8 | `port_21_scan_before_hardening` | Port 21 open |
-| 9 | `asa_cli_hardening_command` | FTP rule removed from OUTSIDE_IN ACL |
-| 10 | `port_21_scan_after_hardening` | Port 21 blocked |
-| 11 | `hardened_ACL` | Only necessary ports permitted |
-| 12 | `dns_resolution` | `www.smalloffice.com` resolved via DMZ_Webserver |
-| 13 | `full_http_traffic_journey` | Request and response captured in simulation mode |
-| 14 | `PDU_details` | Layer 3/4 PDU headers|
-| 15 | `asa_firewall_password` | ASA firewall password `(redacted)` configuration commands |
-| 16 | `edge_router_password` | Edge router password `(redacted)` configuration commands |
-| 17 | `internal_switch_password` | Internal switch password `(redacted)` configuration commands |
-| 18 | `guestwifi_router_password` | WPA2- PSK with AES encryption configured |
-| 19 | `show_vlan_brief` | VLAN configuration |
-| 20 | `vlan_database` | VLAN 10 Staff_and_Printer confirmed |
-| 21 | `final_acl_hit_counters` | Final live hit counters |
+| 3 | [`DNS-A-Record`](screenshots/dns_A_record.png) | DNS Details |
+| 4 | [`connectivity_test_traffic_works`](screenshots/connectivity_test_traffic_works.png) | Legitimate traffic verified |
+| 5 | [`connectivity_test_attacker_blocked`](screenshots/connectivity_test_attacker_blocked.png) | Attacker traffic blocked |
+| — | [`PDU_information_at_firewall`](screenshots/PDU_information_at_firewall.png) | Packet denied by OUTSIDE_IN ACL, dropped by default |
+| 6 | [`full_firewall_ACL_rule`](screenshots/full_firewall_ACL_rule.png)  | Show `access-list` output |
+| 7 | [`opened_ports_before_hardening`](screenshots/Opened_Ports_Before_Hardening.png) | FTP port 21 included in OUTSIDE_IN ACL |
+| 8 | [`port_21_scan_before_hardening`](screenshots/port_21_scan_before_hardening.png)  | Port 21 open |
+| 9 | [`asa_cli_hardening_command`](screenshots/asa_cli_hardening_command.png) | FTP rule removed from OUTSIDE_IN ACL |
+| 10 | [`port_21_scan_after_hardening`](screenshots/port_21_scan_after_hardening.png) | Port 21 blocked |
+| 11 | [`hardened_ACL`](screenshots/asa_cli_hardened_acl.png) | Only necessary ports permitted |
+| 12 | [`dns_resolution`](screenshots/dns_resolution_at_Staff_pc2.png) | `www.smalloffice.com` resolved via DMZ_Webserver |
+| 13 | [`full_http_traffic_journey`](screenshots/full_http_traffic_journey.png) | Request and response captured in simulation mode |
+| 14 | [`PDU_details`](screenshots/complete_PDU_details.png) | Layer 3/4 PDU headers|
+| 15 | [`asa_firewall_password`](screenshots/asa_firewall_password_commands.png) | ASA firewall password `(redacted)` configuration commands |
+| 16 | [`edge_router_password`](screenshots/Router_password_commands.png) | Edge router password `(redacted)` configuration commands |
+| 17 | [`internal_switch_password`](screenshots/internal_switch_password_commands.png) | Internal switch password `(redacted)` configuration commands |
+| 18 | [`guestwifi_router_password`](screenshots/guestwifi_router_password_config.png) | WPA2- PSK with AES encryption configured |
+| 19 | [`show_vlan_brief`](screenshots/vlan_brief.png) | VLAN configuration |
+| 20 | [`vlan_database`](screenshots/vlan_database_on_internal_Switch.png) | VLAN 10 Staff_and_Printer confirmed |
+| 21 | [`final_acl_hit_counters`](screenshots/final_hit_counter.png) | Final live hit counters |
