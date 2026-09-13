@@ -179,7 +179,7 @@ All screenshots are named and available in the `/screenshots` folder:
 | # | Filename | Description |
 |---|---|---|
 | 1 | [network_topology_diagram](screenshots/network_topology_diagram.png) | Full topology diagram |
-| 2 | `firewall_interface_mapping` | Interface zone mapping |
+| 2 | [`firewall_interface_mapping`](screenshots/firewall_interface_mapping.png) | Interface zone mapping |
 | 3 | `DNS-A-Record` | DNS Details |
 | 4 | `connectivity_test_traffic_works` | Legitimate traffic verified |
 | 5 | `connectivity_test_attacker_blocked` | Attacker traffic blocked |
