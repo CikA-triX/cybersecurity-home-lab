@@ -15,7 +15,7 @@ To design, build, and test a secure small office network using a single-firewall
 
 Small offices are easy targets. Everything on one flat network: web servers, staff PCs, printers, guest WiFi; no separation, no control. One compromised device and an attacker moves freely across everything. This project addresses exactly that problem.
 
-This was a group capstone project. My individual contribution covers the network design, zone architecture, firewall ACL configuration, threat simulation, packet capture analysis, and FTP hardening. Password configuration for some devices was handled by a teammate.
+This was a group capstone project. My individual contribution covers the network design, zone architecture, firewall ACL configuration, threat simulation, packet capture analysis, and FTP hardening. Device setup and configuration was handled by a teammate.
 
 ---
 
