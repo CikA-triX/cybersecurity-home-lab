@@ -1,10 +1,10 @@
 # Cybersecurity Home Lab
 
-A hands-on home lab documenting practical cybersecurity exercises completed as part of the TechCrush Cybersecurity Bootcamp (2026).
+A hands-on home lab documenting practical cybersecurity exercises, starting with my TechCrush Cybersecurity Bootcamp capstone and expanding with labs from my current internships.
 
-**Target Role:** Entry Level SOC Analyst  
-**Platform:** Windows 11 (Host) | Kali Linux (VM via VirtualBox)  
-**Status:** In Progress - Updated Per Lab  
+Target Role: Entry Level SOC Analyst
+Platform: Windows 11 (Host) | Kali Linux & Windows 10 (VM via VirtualBox)
+Status: In Progress - Updated Per Lab  
 
 ---
 
@@ -14,6 +14,8 @@ A hands-on home lab documenting practical cybersecurity exercises completed as p
 |---|-----|--------|
 | 1 | [CIA Triad](./lab-01-cia-triad/) | Done |
 | 2 | [CAPSTONE PROJECT 2: secure-small-office-network](./secure-small-office-network) | Done |
+| 3 | [Networkwalks Cybersecurity Internship](link) | In Progress |
+| 4 | [TechBiz Academy SOC Analyst Internship](link) | In Progress |
 
 ---
 
