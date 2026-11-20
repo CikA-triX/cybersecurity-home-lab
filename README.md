@@ -35,8 +35,10 @@ Status: In Progress - Updated Per Lab
 
 ## About
 
-I am currently completing the TechCrush Cybersecurity Bootcamp, a 12 week programme building toward an entry level SOC Analyst role.
+## About
 
-This repository documents every hands-on lab I complete. what I did, what I observed, and what each exercise demonstrates in a real security context.
+I completed the TechCrush Cybersecurity Bootcamp, a 12 weeks programme building toward an entry level SOC Analyst role.
+
+This repository documents every hands-on lab I completed during the bootcamp: what I did, what I observed, and what each exercise demonstrates in a real security context. It now also tracks my ongoing internship work via links in the Labs table.
 
 > **Note:** All screenshots have been reviewed and sanitised - IP addresses, hostnames, and MAC addresses are blurred before upload.
